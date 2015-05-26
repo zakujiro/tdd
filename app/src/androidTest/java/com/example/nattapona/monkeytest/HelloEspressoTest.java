@@ -28,5 +28,4 @@ public class HelloEspressoTest {
         onView(withId(R.id.celTextField)).perform(typeText("0"));
         onView(withId(R.id.fahTextField)).check(matches(withText("32.0")));
     }
-
 }
